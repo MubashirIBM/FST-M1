@@ -55,7 +55,7 @@
         <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <con:dataSource type="File">
             <con:configuration>
-              <fileName>C:/Users/00770A744/Desktop/API Testing Activities/TestFile.txt</fileName>
+              <fileName>C:/Users/0104C5744/Desktop/API Testing Activities/TestFile.txt</fileName>
               <separator>,</separator>
               <trim>true</trim>
               <charset>UTF-8</charset>
@@ -173,4 +173,5 @@
   </con:eventHandlers>
   <con:authRepository/>
   <con:tags/>
+
 </con:soapui-project>
