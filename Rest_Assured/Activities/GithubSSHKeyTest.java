@@ -20,7 +20,8 @@ public class GitHubSSHKeyTest {
     private RequestSpecification requestSpec;
 
     // SSH key and key id variables
-    private String sshKey = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAg....";
+    private String sshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBhZRav0NzpFfcs18pOamtiX4Bpn4+a/oIsHZK0mScKD azuread\\mohammedmahmed2@IBM-PF2L29C6
+";
     private int keyId;
 
     @BeforeClass
@@ -99,4 +100,5 @@ public class GitHubSSHKeyTest {
         // Assertions
         assertThat(response.getStatusCode(), equalTo(204));
     }
+
 }
