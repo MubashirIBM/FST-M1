@@ -111,8 +111,8 @@
             </con:settings>
             <con:endpoint>https://api.github.com</con:endpoint>
             <con:request>{
-	"title":"DivyaFST",
-	"key":"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICzPdtNgoegIUaNcLekgqlx6KM8DOkN9xwxDty6surUY azuread\\kataridivya@DESKTOP-1KMTGOT"
+	"title":"MubashirFST",
+	"key":"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBhZRav0NzpFfcs18pOamtiX4Bpn4+a/oIsHZK0mScKD azuread\\mohammedmahmed2@IBM-PF2L29C6"
 }
 </con:request>
             <con:originalUri>https://api.github.com/user/keys</con:originalUri>
@@ -205,7 +205,7 @@
     <con:oAuth2Profile>
       <con:name>APITest1</con:name>
       <con:type>OAuth 2.0</con:type>
-      <con:accessToken>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</con:accessToken>
+      <con:accessToken>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</con:accessToken>
       <con:accessTokenPosition>HEADER</con:accessTokenPosition>
       <con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus>
       <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
@@ -253,7 +253,7 @@
     <con:oAuth20AuthEntry>
       <con:name>APITest1</con:name>
       <con:type>OAuth 2.0</con:type>
-      <con:accessToken>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</con:accessToken>
+      <con:accessToken>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</con:accessToken>
       <con:accessTokenPosition>HEADER</con:accessTokenPosition>
       <con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus>
       <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
@@ -265,3 +265,4 @@
   </con:authRepository>
   <con:tags/>
 </con:soapui-project>
+
