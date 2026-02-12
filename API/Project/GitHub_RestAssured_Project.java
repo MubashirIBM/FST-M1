@@ -15,7 +15,7 @@ public class GitHub_RestAssured_Project {
  
     RequestSpecification requestSpec;
     int sshId;
-    String accessToken = "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";
+    String accessToken = "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";
  
  
     @BeforeClass
@@ -34,7 +34,7 @@ public class GitHub_RestAssured_Project {
         String payload = """
             {
               "title" : "TestAPIKeyy",
-              "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICzPdtNgoegIUaNcLekgqlx6KM8DOkN9xwxDty6surUY azuread\\\\kataridivya@DESKTOP-1KMTGOT"
+              "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBhZRav0NzpFfcs18pOamtiX4Bpn4+a/oIsHZK0mScKD azuread\\mohammedmahmed2@IBM-PF2L29C6"
               		+ ""
             }
             """; 
@@ -81,4 +81,5 @@ public class GitHub_RestAssured_Project {
         Assert.assertEquals(response.statusCode(), 204);
         System.out.println("SSH Key deleted successfully");
     }
+
 }
